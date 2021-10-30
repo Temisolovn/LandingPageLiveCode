@@ -42,7 +42,7 @@ body {
     font-family: Roboto, sans-serif;
     color: #0e0e0e;
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
     background-color: #f0efe9;
 }
 ol, ul {
@@ -52,10 +52,6 @@ ol, ul {
     font-family: Roboto, sans-serif;
     list-style: none;
 
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
 }
 
 a {
@@ -167,4 +163,33 @@ section-button {
     padding: 10px 15px;
     border-radius: 5px;
     color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 2rem; 
+}
+
+footer img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.support {
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #6a6a6a;
+    margin-left: 0.5rem;
+}
+
+.support-action {
+    color: #0e0e0e;
+    font-weight: bold;
 }
